@@ -19,7 +19,7 @@ before_install:
   - "sudo chmod 1777 /dev/shm"
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-  - "sleep 2"
+  - "sleep 3"
   - "cat /etc/init.d/xvfb"
 language: node_js
 node_js:
